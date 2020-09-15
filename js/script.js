@@ -6,7 +6,7 @@ $(document).ready(function(){
     "eta" : 36,
   }
 
-  console.log(studente);
+  console.log(studente.nome);
 
   // 2.creare ciclo for in per stampare le proprietà
   for ( var key in studente) {
@@ -23,14 +23,15 @@ $(document).ready(function(){
 
     {
       "nome" : "Davide",
-      "cognome" : "Amabile",
+      "cognome" : "Verga",
       "eta" : 36,
     },
   ];
 
   // 4.stampare il nome e cognome degli oggetti
   for ( i = 0; i < classe.length; i++) {
-    console.log(classe[i]);
+    console.log(classe[i].nome);
+    console.log(classe[i].cognome);
 
 
   }
