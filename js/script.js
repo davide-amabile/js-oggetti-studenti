@@ -6,7 +6,7 @@ $(document).ready(function(){
     "eta" : 36,
   }
 
-  console.log(studente.nome);
+  console.log(studente);
 
   // 2.creare ciclo for in per stampare le proprietà
   for ( var key in studente) {
@@ -14,6 +14,14 @@ $(document).ready(function(){
   }
 
   // 3.creare un array di oggetti studenti
+  // creare 3 prompt da per creare un nuovo oggeto nell'array
+
+var nomUte = prompt("Inserire il tuo nome");
+
+var cognomUte = prompt("Inserire il tuo cognome");
+
+var etaUte = parseInt(prompt("Inserisci la tua età"));
+
   var classe = [
     {
       "nome" : "Anna",
@@ -26,14 +34,18 @@ $(document).ready(function(){
       "cognome" : "Verga",
       "eta" : 36,
     },
+
+    {
+      "nome" : nomUte ,
+      "cognome" : cognomUte,
+      "eta" : etaUte,
+    },
+
   ];
 
-  // 4.stampare il nome e cognome degli oggetti
+  // 5.stampare il nome e cognome degli oggetti
   for ( i = 0; i < classe.length; i++) {
     console.log(classe[i].nome);
     console.log(classe[i].cognome);
-
-
   }
-
 });
