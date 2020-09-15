@@ -12,4 +12,27 @@ $(document).ready(function(){
   for ( var key in studente) {
     console.log(studente[key]);
   }
+
+  // 3.creare un array di oggetti studenti
+  var classe = [
+    {
+      "nome" : "Anna",
+      "cognome" : "Amabile",
+      "eta" : 6,
+    },
+
+    {
+      "nome" : "Davide",
+      "cognome" : "Amabile",
+      "eta" : 36,
+    },
+  ];
+
+  // 4.stampare il nome e cognome degli oggetti
+  for ( i = 0; i < classe.length; i++) {
+    // console.log(classe[i]);
+  
+
+  }
+
 });
