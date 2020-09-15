@@ -30,8 +30,8 @@ $(document).ready(function(){
 
   // 4.stampare il nome e cognome degli oggetti
   for ( i = 0; i < classe.length; i++) {
-    // console.log(classe[i]);
-  
+    console.log(classe[i]);
+
 
   }
 
